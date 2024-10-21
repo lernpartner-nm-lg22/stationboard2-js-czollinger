@@ -1,69 +1,69 @@
 @font-face {
-  font-family: SBB;
-  src: url("https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Roman.woff2") format("woff2"), url("https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Roman.woff") format("woff");
-  font-display: fallback;
-  font-weight: 400;
-}
-@font-face {
-  font-family: SBB;
-  src: url("https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Bold.woff2") format("woff2"), url("https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Bold.woff") format("woff");
-  font-display: swap;
-  font-weight: 700;
-}
-@font-face {
-  font-family: SBB;
-  src: url("https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Light.woff2") format("woff2"), url("https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Light.woff") format("woff");
-  font-display: swap;
-  font-weight: 300;
-}
-:root {
     font-family: SBB;
-    color:white;
-}
-
-body {
-    background-image: url(/assets/station.bmp);
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-}
-
-#select {
-    text-align: center;
-}
-.table-fixed-head {
-    position: fixed;
-    top:10vh;
-    left:10vw;
-    width: 80vw;
-    max-height: 80vh;
-    overflow-y: scroll;
-}
-
-table {
-    width: 100%;
-    table-layout: fixed;
-    background-color: blue;
-    opacity: 80%;
-    backdrop-filter: blur(10px);
-    border-collapse: collapse;
-}
-thead th,
-caption {
-    position: sticky;
-    background-color: blue;
-    border: 3px solid white;
-}
-caption {
-    top:0;
-}
-thead th {
-    top:70px;
-}
-tbody {
-    overflow-y: scroll;
-}
-th,td {
-    border:3px solid white;
-    padding: 10px;
-}
+    src: url("https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Roman.woff2") format("woff2"), url("https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Roman.woff") format("woff");
+    font-display: fallback;
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: SBB;
+    src: url("https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Bold.woff2") format("woff2"), url("https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: SBB;
+    src: url("https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Light.woff2") format("woff2"), url("https://cdn.app.sbb.ch/fonts/v1_6_subset/SBBWeb-Light.woff") format("woff");
+    font-display: swap;
+    font-weight: 300;
+  }
+  :root {
+      font-family: SBB;
+      color: hotpink;
+  }
+  
+  body {
+      background-image: url(/assets/station.bmp);
+      background-attachment: fixed;
+      background-position: center center;
+      background-size: cover;
+  }
+  
+  #select {
+      text-align: center;
+  }
+  .table-fixed-head {
+      position: fixed;
+      top: 10vh;
+      left: 10vw;
+      width: 80vw;
+      max-height: 80vh;
+      overflow-y: scroll;
+  }
+  
+  table {
+      width: 100%;
+      table-layout: fixed;
+      background-color: pink; /* Changed to pink */
+      opacity: 80%;
+      backdrop-filter: blur(10px);
+  }
+  thead th,
+  caption {
+      position: sticky;
+      background-color: pink; /* Changed to pink */
+      border: 3px solid hotpink;
+  }
+  caption {
+      top: 0;
+  }
+  thead th {
+      top: 70px;
+  }
+  tbody {
+      overflow-y: scroll;
+  }
+  th, td {
+      border: 3px solid hotpink;
+      padding: 10px;
+  }
+  
